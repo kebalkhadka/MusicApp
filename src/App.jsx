@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Sidebar from './components/Sidebar'
+import Player from './components/Player'
+import React from 'react'
+
 
 function App() {
 
@@ -12,7 +15,7 @@ function App() {
       <div className='h-[90%] flex '>
         <Sidebar/>  
       </div>
-
+     <Player/>
     </div>
     </>
   )
